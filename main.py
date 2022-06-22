@@ -52,16 +52,16 @@ def Reset():
 
 
 Label(root,font='Roboto 12', text='Message').place(x=60,y=90)
-Entry(root,font='Roboto 10',textvariable=Text,bg='ghost white').place(x=290,y=60)
+Entry(root,font='Roboto 10',textvariable=Text,bg='black').place(x=290,y=60)
 
 Label(root,font='Roboto 12', text='Key').place(x=60,y=90)
-Entry(root,font='Roboto 10',textvariable=private_key,bg='ghost white').place(x=290,y=60)
+Entry(root,font='Roboto 10',textvariable=private_key,bg='black').place(x=290,y=60)
 
 Label(root,font='Roboto 12', text='Mode(e-Encode,d-Decode)').place(x=60,y=120)
-Entry(root,font='Roboto 10',textvariable=mode,bg='ghost white').place(x=290,y=120)
+Entry(root,font='Roboto 10',textvariable=mode,bg='black').place(x=290,y=120)
 
 
-Entry(root,font='Roboto 10',textvariable=Result,bg='ghost white',width=52).place(x=65,y=150)
+Entry(root,font='Roboto 10',textvariable=Result,bg='black',width=52).place(x=65,y=150)
 
 Button(root,font='Roboto 10 bold',bd=0, text='Encrypt / Decrypt', padx=10,
         pady=2,bg='LimeGreen',fg='white',command=Mode).place(x=65,y=200)
